@@ -27,7 +27,9 @@ These examples were developed for MATLAB release R2024b or later.
 - [MATLAB&reg;](https://www.mathworks.com/products/matlab.html)
 - [Aerospace Toolbox&trade;](https://www.mathworks.com/products/aerospace-toolbox.html)
 - [Mapping Toolbox&trade;](https://www.mathworks.com/products/mapping.html)
-- [Statistics and Machine Learning Toolbox&trade;](https://www.mathworks.com/products/statistics.html)
+
+### Required Add-Ons
+- [GUI Layout Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox)
 
 ## License
 The license is available in the [LICENSE.txt](LICENSE.txt) file in this GitHub repository.
