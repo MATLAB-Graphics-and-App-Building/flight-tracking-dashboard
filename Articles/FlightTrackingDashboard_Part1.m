@@ -1,6 +1,6 @@
 %[text] %[text:anchor:T_F7E8B9B1] # **Creating a Flight Tracking Dashboard, Part 1: Visualizing an Aircraft**
 %[text] %[text:anchor:H_701E9FF1] **Overview**
-%[text] MATLAB provides a large suite of visualization functions tailored to scientific and engineering applications. In addition, MATLAB enables you to develop domain-specific visualizations. These can be embedded in all data analytics workflows, ranging from small-scale interactive [tasks](https://www.mathworks.com/help/releases/R2023b/matlab/develop-live-editor-tasks.html) to more complex [reports](https://www.mathworks.com/products/matlab-report-generator.html), [apps](https://www.mathworks.com/products/matlab/app-designer.html) and [web apps](https://www.mathworks.com/products/matlab-web-app-server.html) such as dashboard-like front ends.
+%[text] MATLAB provides a large suite of visualization functions tailored to scientific and engineering applications. In addition, MATLAB enables you to develop domain-specific visualizations. These can be embedded in all data analytics workflows, ranging from small-scale interactive [tasks](https://www.mathworks.com/help/releases/R2024b/matlab/develop-live-editor-tasks.html) to more complex [reports](https://www.mathworks.com/products/matlab-report-generator.html), [apps](https://www.mathworks.com/products/matlab/app-designer.html) and [web apps](https://www.mathworks.com/products/matlab-web-app-server.html) such as dashboard-like front ends.
 %[text] Let's assume that we've been tasked with developing a custom dashboard for monitoring an aircraft during a flight. Over the course of this three-part blog series, we'll see how to put together this dashboard by breaking it down into several simpler steps.
 %[text] Here's a rough sketch of what we'll be laying out. We'll be including visualizations for tracking the aircraft during its flight, and flight instruments to display the flight data. There will also be some controls for configuring the appearance of the dashboard.
 %[text] ![](text:image:94e5)
@@ -8,7 +8,7 @@
 %[text] In this first blog post, we'll focus on creating an important part of the dashboard - a visualization to display a model of the aircraft together with its current attitude (roll, pitch, and yaw). We'll learn some general visualization techniques such as working with stereolithography (STL) files, 3D surfaces, and transforming 3D graphics.
 %[text] In the next post in this series, we'll see how to encapsulate the 3D graphics and helper functions in a custom aircraft chart. This approach is more suited to modular application development. In the third and final post, we'll see how to connect the aircraft chart with other controls and displays in the final dashboard.
 %[text] Let's get started!
-%[text:tableOfContents]{"heading":"**Table of Contents**"}
+%[text:tableOfContents]{"heading":"Table of Contents"}
 %[text] 
 %%
 %[text] %[text:anchor:H_BFF2152C] ## Import and visualize a 3D aircraft model.
