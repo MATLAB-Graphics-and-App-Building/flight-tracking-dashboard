@@ -49,12 +49,7 @@ classdef FlightPathData < matlab.mixin.indexing.RedefinesDot & ...
                 dLatLon  = [0, 0; diff( deg2rad( ...
                     [tt.Latitude, tt.Longitude] ) )];
                 tt.Slip = rad2deg( tand( tt.Roll ) - ...
-                    dHeading .* sqrt( sum( dLatLon.^2, 2 ) ) / g );
-
-                % Attitude change.
-                tt.RollChange =  [0; diff( tt.Roll )];
-                tt.PitchChange =  [0; diff( tt.Pitch )];
-                tt.YawChange = [0; diff( tt.Yaw )];
+                    dHeading .* sqrt( sum( dLatLon.^2, 2 ) ) / g );               
 
                 % Reassign the data.
                 obj.FlightDataTimetable = tt;
@@ -189,12 +184,9 @@ Yaw = d;
 ClimbRate = d;
 Heading = d;
 Slip = d;
-RollChange = d;
-PitchChange = d;
-YawChange = d;
 
 tt = timetable( Time, Latitude, Longitude, ...
     Altitude, Airspeed, Roll, Pitch, Yaw, ...
-    ClimbRate, Heading, Slip, RollChange, PitchChange, YawChange );
+    ClimbRate, Heading, Slip );
 
 end % defaultFlightDataTimetable

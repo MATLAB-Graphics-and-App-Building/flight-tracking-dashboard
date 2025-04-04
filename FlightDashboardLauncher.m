@@ -183,11 +183,9 @@ classdef FlightDashboardLauncher < handle
             %ONTHEMEBUTTONPUSHED Toggle the theme.
 
             if obj.Figure.Theme.Name == "Light Theme"
-                obj.Figure.Theme = "dark";
-                obj.MapView.geobasemap( "streets-dark" )
+                obj.Figure.Theme = "dark";                
             else
-                obj.Figure.Theme = "light";
-                obj.MapView.geobasemap( "streets-light" )
+                obj.Figure.Theme = "light";                
             end % if
 
         end % onThemeButtonPushed

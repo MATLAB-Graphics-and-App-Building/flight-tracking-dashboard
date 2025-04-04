@@ -85,8 +85,22 @@ classdef MapView < FlightDashboardComponent
 
         end % setup
 
-        function update( ~ )
+        function update( obj )
             %UPDATE Refresh the component's graphics.
+
+            % Respond to theme changes by switching the geographic basemap
+            % in use.
+            f = ancestor( obj, "figure" );
+            if isempty( f )
+                return
+            else
+                themeName = f.Theme.Name;
+                if themeName == "Light Theme"
+                    obj.geobasemap( "streets-light" )
+                else
+                    obj.geobasemap( "streets-dark" )
+                end % if
+            end % if
 
         end % update
 
