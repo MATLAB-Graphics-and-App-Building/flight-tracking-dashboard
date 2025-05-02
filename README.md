@@ -14,6 +14,7 @@ to more complex [reports](https://www.mathworks.com/products/matlab-report-gener
 [web apps](https://www.mathworks.com/products/matlab-web-app-server.html) 
 such as dashboard-like front ends.
 
+![](Images/FlightDashboard.png)
 
 ## Installation and Getting Started
 The code is provided in a MATLAB project.
