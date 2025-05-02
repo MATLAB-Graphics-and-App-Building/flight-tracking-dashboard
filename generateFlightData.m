@@ -69,8 +69,8 @@ randIdx = randi( numObservations, numRand, 1 );
 Yaw(randIdx) = 0.5 * randn( numRand, 1 );
 
 % Create and export the timetable.
-tt = timetable( Time, Latitude, Longitude, Airspeed, Altitude, Roll, ...
-    Pitch, Yaw );
+tt = timetable( Time, Latitude, Longitude, Airspeed, Altitude, ...
+    Roll, Pitch, Yaw );
 writetimetable( tt, filename )
 
 end % generateFlightData
