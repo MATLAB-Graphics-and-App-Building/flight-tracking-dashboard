@@ -6,12 +6,7 @@ classdef FlightPathData < matlab.mixin.indexing.RedefinesDot & ...
         % Timetable containing flight path data.
         FlightDataTimetable(:, :) timetable ...
             {mustBeFlightDataTimetable} = defaultFlightDataTimetable()
-    end % properties ( Access = private )
-
-    properties ( Dependent, SetAccess = private )
-        % List of variables.
-        VariableNames
-    end % properties ( Dependent, SetAccess = private )
+    end % properties ( Access = private )    
 
     methods
 
