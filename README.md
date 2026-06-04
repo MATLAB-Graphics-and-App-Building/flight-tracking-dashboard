@@ -1,9 +1,10 @@
 # Creating a Flight Tracking Dashboard
 
-[![View Creating a Flight Tracking Dashboard on File Exchange](Images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/)
-[![Open in MATLAB Online](Images/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-Graphics-and-App-Building/flight-tracking-dashboard&project=Dashboard.prj&file=FlightDashboardApp.mlapp&focus=true)
+[![View Creating a Flight Tracking Dashboard on File Exchange](readme/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/)
+[![Open in MATLAB Online](readme/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-Graphics-and-App-Building/flight-tracking-dashboard&project=FlightTracker.prj&file=tbx/flightTracker/FlightDashboardApp.mlapp&focus=true)
+[![Flight Tracking Dashboard Actions](https://github.com/mathworks/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml/badge.svg)](https://github.com/mathworks/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml)
 
-This repository contains the MATLAB® code for the series of blog posts on [_Creating a Flight Tracking Dashboard_](https://blogs.mathworks.com/graphics-and-apps/2024/02/08/creating-a-flight-tracking-dashboard-part-1-visualizing-an-aircraft/), available under the [MATLAB Graphics and App Building](https://blogs.mathworks.com/graphics-and-apps/) blog.
+This repository contains the MATLAB® code for the series of articles on [_Creating a Flight Tracking Dashboard_](https://blogs.mathworks.com/graphics-and-apps/2024/02/08/creating-a-flight-tracking-dashboard-part-1-visualizing-an-aircraft/), available under the [MATLAB Graphics and App Building](https://blogs.mathworks.com/graphics-and-apps/) blog.
 
 MATLAB provides a large suite of visualization functions tailored to scientific and engineering applications. 
 In addition, MATLAB enables you to develop domain-specific visualizations. 
@@ -14,17 +15,18 @@ to more complex [reports](https://www.mathworks.com/products/matlab-report-gener
 [web apps](https://www.mathworks.com/products/matlab-web-app-server.html) 
 such as dashboard-like front ends.
 
-![](Images/FlightDashboard.png)
+![](readme/FlightDashboard.png)
 
 ## Installation and Getting Started
-The code is provided in a MATLAB project.
-1. Double-click on the project archive (`Dashboard.mlproj`) to extract it using MATLAB.
-2. With MATLAB open, navigate to the newly-created project folder and double-click on the project file (`Dashboard.prj`) to open the project.
-3. Run `>> flightDashboard` to launch the application.
+The examples are provided as a [MATLAB toolbox](https://www.mathworks.com/help/matlab/matlab_prog/create-and-share-custom-matlab-toolboxes.html).
+
+1. Download the toolbox installer (the `Flight_Tracking_Dashboard.mltbx` file) from the `Releases` section on GitHub.
+2. Double-click on the `Flight_Tracking_Dashboard.mltbx` file to install the toolbox.
+3. Run `>> FlightDashboardApp` to launch the application. 
 
 ## [MathWorks](https://www.mathworks.com) Product Requirements
 
-These examples were developed for MATLAB release R2024b or later.
+These examples require MATLAB R2024b or a later release.
 - [MATLAB&reg;](https://www.mathworks.com/products/matlab.html)
 - [Aerospace Toolbox&trade;](https://www.mathworks.com/products/aerospace-toolbox.html)
 - [Mapping Toolbox&trade;](https://www.mathworks.com/products/mapping.html)
@@ -35,4 +37,7 @@ These examples were developed for MATLAB release R2024b or later.
 ## License
 The license is available in the [LICENSE.txt](LICENSE.txt) file in this GitHub repository.
 
-_Copyright 2024-2025 The MathWorks, Inc._
+Copyright 2024-2026 The MathWorks, Inc.
+
+## Community Support
+[MATLAB Central](https://www.mathworks.com/matlabcentral)

@@ -1,0 +1,12 @@
+{
+    "ToolboxName":"Flight Tracking Dashboard",
+    "Identifier":"f66006bd-4de2-44b5-9d63-d6c5d59e055b",
+    "Summary":"This repo contains the code for the series of articles on 'Creating a Flight Tracking Dashboard'.",
+    "Description":"MATLAB provides a large suite of visualization functions tailored to scientific and engineering applications. In addition, MATLAB enables you to develop domain-specific visualizations. These can be embedded in all data analytics workflows, ranging from small-scale interactive tasks to more complex reports, apps and web apps such as dashboard-like front ends. This toolbox contains the code and examples for the articles on 'Creating a Flight Tracking Dashboard', available under the MATLAB Graphics and App Building blog.",
+    "AuthorCompany":"MathWorks",
+    "AuthorName":"Ken Deeley",
+    "AuthorEmail":"kdeeley@mathworks.com",
+    "ToolboxFolder":"./tbx",
+    "ToolboxMatlabPath": ["./tbx", "./tbx/flightTracker", "./tbx/flightTracker/app", "./tbx/flightTracker/articles", "./tbx/flightTracker/data", "./tbx/flightTracker/images"],
+    "MinimumMatlabRelease":"R2024b"
+}
