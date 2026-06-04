@@ -2,7 +2,7 @@
 
 [![View Creating a Flight Tracking Dashboard on File Exchange](readme/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/)
 [![Open in MATLAB Online](readme/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-Graphics-and-App-Building/flight-tracking-dashboard&project=FlightTracker.prj&file=tbx/flightTracker/FlightDashboardApp.mlapp&focus=true)
-[![Flight Tracking Dashboard Actions](https://github.com/mathworks/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml/badge.svg)](https://github.com/mathworks/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml)
+[![Flight Tracking Dashboard Actions](https://github.com/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml/badge.svg)](https://github.com/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml)
 
 This repository contains the MATLAB® code for the series of articles on [_Creating a Flight Tracking Dashboard_](https://blogs.mathworks.com/graphics-and-apps/2024/02/08/creating-a-flight-tracking-dashboard-part-1-visualizing-an-aircraft/), available under the [MATLAB Graphics and App Building](https://blogs.mathworks.com/graphics-and-apps/) blog.
 
