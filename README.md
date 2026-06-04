@@ -1,6 +1,6 @@
 # Creating a Flight Tracking Dashboard
 
-[![View Creating a Flight Tracking Dashboard on File Exchange](readme/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/)
+[![View Creating a Flight Tracking Dashboard on File Exchange](readme/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/184026-flight-tracking-dashboard)
 [![Open in MATLAB Online](readme/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-Graphics-and-App-Building/flight-tracking-dashboard&project=FlightTracker.prj&file=tbx/flightTracker/FlightDashboardApp.mlapp&focus=true)
 [![Flight Tracking Dashboard Actions](https://github.com/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml/badge.svg)](https://github.com/MATLAB-Graphics-and-App-Building/flight-tracking-dashboard/actions/workflows/flightTracker-ci.yml)
 
