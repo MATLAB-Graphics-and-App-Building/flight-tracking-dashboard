@@ -69,8 +69,6 @@ jobs:
         command: |
             logLines = readlines( "tbx/flightTracker/Changelog.md" );
             startIdx = find( logLines == "## Version " + getenv( "TOOLBOX_VERSION" ) );
-            disp( logLines )
-            disp( startIdx )
             allVersionLines = find( startsWith( logLines, "##" ) );
             endIdx = allVersionLines(find( allVersionLines > startIdx, 1 )) - 1;
             releaseNotes = join( logLines(startIdx:endIdx), newline() );
