@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 1.0.5
+
+* Added support for `code font` in release notes
+
 ## Version 1.0.4
 
 * Organized code in a toolbox and added build automation
